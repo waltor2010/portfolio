@@ -46,4 +46,4 @@ Small jobs count too. Quick scripts, converters, and debugging utilities I've bu
 ---
 
 📫 Contact: waltor0824@outlook.com
-🌐 Also on: 程序员客栈 · 猿急送 · 码市
+🌐 Also on: Upwork
