@@ -2,7 +2,7 @@
 
 Hi, I'm Waltor.
 
-I'm a system architect specializing in AIoT and machine vision systems, with 10+ years of experience delivering production-grade solutions — from edge devices to cloud platforms.
+I'm a system architect specializing in Industrial IoT and machine vision systems, with 10+ years of experience delivering production-grade solutions — from edge devices to cloud platforms.
 
 ---
 
@@ -14,7 +14,7 @@ Most of my work sits at the intersection of:
 - **Embedded Systems** — C/C++ development on ESP32, STM32, and custom hardware
 - **AIoT Gateways** — OpenWrt-based edge gateways, protocol bridging, and device management
 - **Machine Vision** — Industrial inspection systems, camera calibration, and edge AI deployment
-- **Full-Stack Platforms** — Java / Node.js backends and Vue frontends for IoT device management
+- **Full-Stack Platforms** — FastAPI (Python) + Vue3 for IoT admin & dashboards (also Java / Node.js)
 
 ---
 
@@ -36,8 +36,8 @@ Typical engagement:
 | Embedded / Edge | C, C++, ESP32, STM32, OpenWrt, FreeRTOS |
 | Computer Vision | Python, OpenCV, PyTorch, edge inference (ONNX/TensorRT) |
 | Connectivity | MQTT, Modbus, RS485, LoRa, WiFi, 4G |
-| Backend | Java, Node.js, REST APIs, WebSocket |
-| Frontend | Vue, TypeScript |
+| Backend | FastAPI (Python), Java, Node.js, REST APIs, WebSocket |
+| Frontend | Vue3, TypeScript, Element Plus |
 | DevOps | Docker, CI/CD, OTA update pipelines |
 
 ---

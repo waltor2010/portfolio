@@ -30,7 +30,7 @@ It's in the seams between layers.
          └────────┬───────────┘
                   │
             ┌─────▼─────┐
-            │  The Seam  │  ← This is where most failures happen
+            │ The join  │  ← failures cluster here
             │  (timing,  │
             │ power, sync)│
             └─────┬─────┘
@@ -39,7 +39,7 @@ It's in the seams between layers.
     [Gateway]  [Cloud]  [Client]
 ```
 
-I design for the **seams** — not just the components.
+I design for how the layers meet — not just the individual components.
 
 ---
 
