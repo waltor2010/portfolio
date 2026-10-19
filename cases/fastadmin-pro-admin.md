@@ -1,6 +1,6 @@
 # Case Study: FastAdmin Pro — Vue3 + FastAPI Admin Template
 
-A standard admin backend built on Vue3 + FastAPI that I use to show full-stack delivery, permission design, and deployment. It also ships a device-management module as a worked "二开" example, to prove the template turns into a real business backend.
+A standard admin backend built on Vue3 + FastAPI that I use to show full-stack delivery, permission design, and deployment. It also ships a device-management module as a worked customization example, to prove the template turns into a real business backend.
 
 > 🌐 中文版 / Chinese version: [fastadmin-pro-admin.zh.md](fastadmin-pro-admin.zh.md)
 
@@ -8,7 +8,7 @@ A standard admin backend built on Vue3 + FastAPI that I use to show full-stack d
 
 ## Background
 
-Most small factories and device makers want an internal admin backend, and fast. The common off-the-shelf templates are Java (RuoYi) and awkward to bend toward custom IoT workflows. I built this one in Python/FastAPI so it matches how I actually deliver, and so it doubles as a reusable base for "后台二开" jobs.
+Most small factories and device makers want an internal admin backend, and fast. The common off-the-shelf templates are Java (RuoYi) and awkward to bend toward custom IoT workflows. I built this one in Python/FastAPI so it matches how I actually deliver, and so it doubles as a reusable base for back-office customization jobs.
 
 ---
 
@@ -60,7 +60,7 @@ The whole thing runs from one `docker compose up -d` — MySQL, Redis, the FastA
 ```
 
 - **Excel**: user and device bulk import/export with per-row error reporting.
-- **The "二开" proof**: the device-management module is built on the same template — it shows the path from generic admin to a concrete business backend (device list, status, CRUD), which is the exact work most "后台二开" posts ask for.
+- **The customization proof**: the device-management module is built on the same template — it shows the path from generic admin to a concrete business backend (device list, status, CRUD), which is the exact work most back-office customization posts ask for.
 
 The full design spec (architecture, DB schema, permission model, API contract) is in the project's `ForAI.md`.
 
@@ -84,7 +84,7 @@ A `deleted_at` on every base table avoids accidental data loss and keeps an audi
 
 ## What I learned
 
-The part that makes a template actually reusable for 二开 is the structure — deps → services → api, a real permission model, and a response contract — not any single feature. Get those right and a new business backend is assembly, not archaeology.
+The part that makes a template actually reusable for customization is the structure — deps → services → api, a real permission model, and a response contract — not any single feature. Get those right and a new business backend is assembly, not archaeology.
 
 ---
 
