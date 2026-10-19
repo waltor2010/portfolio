@@ -11,7 +11,7 @@ This repository is my technical portfolio: case studies, solution designs, and p
 | Project | Stack | What it demonstrates | Status |
 |---------|-------|----------------------|--------|
 | [FastAdmin Pro](cases/fastadmin-pro-admin.md) | Vue3 + FastAPI + MySQL + Redis | Full-stack admin & device-management template: RBAC, dual-token auth, Excel I/O, auto operation-log, customization example | Case study |
-| [Industrial Vision Inspection](cases/industrial-vision-inspection.md) | FastAPI + Vue3 + PySide6 + Anomalib/YOLO + 海康 MVS | Deployed surface-defect detection + next-gen flexible architecture | Case study |
+| [Industrial Vision Inspection](cases/industrial-vision-inspection.md) | FastAPI + Vue3 + PySide6 + Anomalib/YOLO + Hikvision MVS | Deployed surface-defect detection + next-gen flexible architecture | Case study |
 | [IoT Edge Gateway (BLE→MQTT)](cases/iot-edge-gateway-ble-mqtt.md) | ESP32 + 4G/WiFi/LoRa + MQTT/HTTP | One ESP32-S3 base reused across BLE / laser / vibration / LoRa nodes | Case study |
 
 > Each links to a detailed writeup in [`cases/`](cases/). New case studies follow [`cases/_template.md`](cases/_template.md).

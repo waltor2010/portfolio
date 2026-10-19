@@ -54,5 +54,5 @@ Good architecture is invisible. It works, it's maintainable, and it doesn't over
 
 ---
 
-📫 **Open to opportunities** — Upwork, 程序员客栈, or direct engagement.  
+📫 **Open to opportunities** — Upwork or direct engagement.  
 Contact: waltor0824@outlook.com
